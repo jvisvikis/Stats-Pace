@@ -1,0 +1,197 @@
+{
+	"questionPool": [
+		{
+			"dialogue": [
+				{
+					"speaker": 0,
+					"speech": "Hello Eliza, it's a pleasure to meet you, I have helped your cousins before and I have made it my mission to do the same with you."
+				},
+				{
+					"speaker": 1,
+					"speech": "Oh my god, you're the god of statistics, I am so excited to meet you!"
+				}
+			],
+			"questions": [
+				{
+					"question": "The pleasure is mine, now let's look together at what it means to be in poverty. What do you think will be some indicators of poverty?",
+					"numericQuestion": false,
+					"hasImage": true,
+					"imageIdx": 0,
+					"ans0": "A lack of money",
+					"ans1": "Hunger and unclean water",
+					"ans2": "Inadequate shelter",
+					"ans3": "All of the above",
+					"numericAnswer": 0,
+					"correctIdx": 3,
+					"timeLimit": 40,
+					"points": 100,
+					"hint": "It's all of them",
+					"feedback":"normal feedback",
+					"elaborateFeedback": "The correct answer is D. However, income is the best numerical indicator for poverty as most definitions of poverty are mostly based on income.",
+					"hasTimer": true
+				},
+				{
+					"question": "What's 44 % 10?",
+					"numericQuestion": false,
+					"hasImage": true,
+					"imageIdx": 1,
+					"ans0": "4",
+					"ans1": "2",
+					"ans2": "1",
+					"ans3": "3",
+					"numericAnswer": 0,
+					"correctIdx": 0,
+					"timeLimit": 30,
+					"points": 50,
+					"hint": "It's 4",
+					"feedback":"normal feedback",
+					"elaborateFeedback": "Divide the 1st number by the 2nd and the remainder is your answer",
+					"hasTimer": false
+				}
+			]
+		},
+		{
+			"dialogue": [
+				{
+					"speaker": 0,
+					"speech": "Context Dialogue"
+				}
+			],
+			"questions": [
+				{
+					"question": "What's 7 * 8?",
+					"numericQuestion": true,
+					"hasImage": false,
+					"imageIdx": 0,
+					"ans0": "",
+					"ans1": "",
+					"ans2": "",
+					"ans3": "",
+					"numericAnswer": 56,
+					"correctIdx": 0,
+					"timeLimit": 40,
+					"hint": "It's 56",
+					"feedback":"normal feedback",
+					"elaborateFeedback": "Starting from 0, add the 1st number n times where n is the 2nd number. E.g. 7*8 = 7+7+7+7+7+7+7+7.",
+					"hasTimer": true
+				}
+			]
+		},
+		{
+			"dialogue": [
+				{
+					"speaker": 0,
+					"speech": "Context Dialogues",
+					"isAfterQuesion": false
+				}
+			],
+			"questions": [
+				{
+					"question": "Can you please find out the medium for the data below?\n1, 1, 3, 6, 15, 22",
+					"numericQuestion": false,
+					"hasImage": true,
+					"imageIdx": 0,
+					"ans0": "Median: 6",
+					"ans1": "Median: 3",
+					"ans2": "Median: 4",
+					"ans3": "Median: 4.5",
+					"numericAnswer": 0,
+					"correctIdx": 3,
+					"timeLimit": 40,
+					"points": 100,
+					"hint": "Find the average of the two middle numbers",
+					"feedback":"normal feedback",
+					"elaborateFeedback": "The two middle numbers are 3 & 6. Their average is 4.5",
+					"hasTimer": false
+				}
+			]
+		},
+		{
+			"dialogue": [
+				{
+					"speaker": 0,
+					"speech": "Context Dialogues",
+					"isAfterQuesion": false
+				}
+			],
+			"questions": [
+				{
+					"question": "Now if you are trying to carry out a study on the poverty rate in Australia with the data of everyone's income, which measurement should we look at? The mean or the median?",
+					"numericQuestion": false,
+					"hasImage": true,
+					"imageIdx": 2,
+					"ans0": "Mean",
+					"ans1": "Median",
+					"ans2": "",
+					"ans3": "",
+					"numericAnswer": 0,
+					"correctIdx": 1,
+					"timeLimit": 40,
+					"points": 100,
+					"hint": "It's all of them",
+					"feedback":"normal feedback",
+					"elaborateFeedback": " For datasets like income, it's normal to have some extremely high or low values. Therefore, the median income would be a better reference to poverty.",
+					"hasTimer": false
+				}
+			]
+		},
+		{
+			"dialogue": [
+				{
+					"speaker": 0,
+					"speech": "Context Dialogues",
+					"isAfterQuesion": false
+				}
+			],
+			"questions": [
+				{
+					"question": "What's 1 + 1?",
+					"numericQuestion": false,
+					"hasImage": true,
+					"imageIdx": 2,
+					"ans0": "1",
+					"ans1": "2",
+					"ans2": "11",
+					"ans3": "One",
+					"numericAnswer": 0,
+					"correctIdx": 1,
+					"timeLimit": 30,
+					"points": 20,
+					"hint": "It's 2",
+					"feedback":"normal feedback",
+					"elaborateFeedback": "If we start from the 1st number in the equation, in this case 1 and then count up n times where n equals the 2nd number in the equation, in this case it is also 1. So starting from 1 we count up 1 time so we go from 1->2 and 2 is our answer",
+					"hasTimer": true
+				}
+			]
+		},
+		{
+			"dialogue": [
+				{
+					"speaker": 0,
+					"speech": "Context Dialogues",
+					"isAfterQuesion": false
+				}
+			],
+			"questions": [
+				{
+					"question": "What's 30-5?",
+					"numericQuestion": false,
+					"hasImage": true,
+					"imageIdx": 0,
+					"ans0": "35",
+					"ans1": "20",
+					"ans2": "25",
+					"ans3": "6",
+					"numericAnswer": 0,
+					"correctIdx": 2,
+					"timeLimit": 20,
+					"points": 40,
+					"hint": "It's 25",
+					"feedback":"normal feedback",
+					"elaborateFeedback": "Same as addition but backwards, 30->29->28->27->26->25",
+					"hasTimer": true
+				}
+			]
+		}
+	]
+}
